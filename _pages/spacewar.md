@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Space War 系列小游戏"
-permalink: /spacewar/
+permalink: /teaching/
 author_profile: true
 ---
 
