@@ -2,7 +2,7 @@
 title: "Space War 1.0"
 collection: spacewar
 type: "python coding"
-permalink: /spacewar/2024-spacewar-teaching-1.0
+permalink: /spacewar/2024-spacewar-1.0
 venue: "ZJU, CCEA"
 date: 2024-05-01
 location: "Zhejiang, China"
