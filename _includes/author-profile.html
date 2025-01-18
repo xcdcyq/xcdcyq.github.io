@@ -156,6 +156,12 @@
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
       {% endif %}      
+      {% if author.bilibili %}
+      <li><a href="{{ author.bilibili }}"><i class="fab fa-fw fa-bilibili icon-pad-right" aria-hidden="true"></i>Bilibili</a></li>
+      {% endif %}   
+      {% if author.csdn %}
+      <li><a href="https://blog.csdn.net/{{ author.csdn }}"><i class="fab fa-fw fa-csdn icon-pad-right" aria-hidden="true" style="color: red;"></i>CSDN</a></li>
+      {% endif %}      
     </ul>
   </div>
 </div>
