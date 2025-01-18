@@ -3,7 +3,7 @@ title: "Space War 1.0系列"
 collection: SpaceWar系列小游戏
 type: "基于python实现"
 permalink: /SpaceWar系列小游戏/SpaceWar1.0系列
-venue: "University 1, Department"
+venue: "ZJU, CCEA"
 date: 2025-01-18
 location: "浙江, 中国"
 ---
