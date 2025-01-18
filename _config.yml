@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-title                    : "Your Name / Site Title"
+locale                   : "zh-CN"
+title                    : "西辞东楚/学术博客"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "西辞东楚"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://xcdcyq.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -21,22 +21,22 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "微信图片_20240623192110.png"
+  name             : "西辞东楚"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "个人介绍见主页"
+  location         : "中国"
+  employer         : "Zhejiang University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "xcdc_yq@outlook.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
@@ -44,12 +44,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "xcdcyq"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -73,6 +73,8 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+  bilibili         : "https://space.bilibili.com/625947454"
+  csdn             : "xcdc_yq"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -224,6 +226,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  SpaceWar系列小游戏:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -281,6 +286,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _SpaceWar系列小游戏
+  - scope:
+      path: ""
+      type: SpaceWar系列小游戏
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 
 
 # Sass/SCSS
