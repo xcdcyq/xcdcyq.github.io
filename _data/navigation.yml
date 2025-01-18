@@ -26,5 +26,5 @@ main:
   - title: "Guide"
     url: /markdown/
 
-  - title: "SpaceWar系列小游戏"
-    url: /spacewar/
+#  - title: "SpaceWar系列小游戏"
+#    url: /spacewar/
