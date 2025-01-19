@@ -1,5 +1,5 @@
 ---
-title: "Space War 2.0"
+title: "Space War 2.0 系列"
 collection: spacewar
 type: "python coding"
 permalink: /spacewar/2024-spacewar-2
