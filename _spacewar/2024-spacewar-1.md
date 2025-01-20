@@ -10,7 +10,7 @@ location: "Zhejiang, China"
 
 Space War 1.0系列, 单机游戏，基于python实现，飞机对象的移动，攻击，以及敌机对象的一系列移动还有相机功能的运用。已具备一定的可玩性，目前处于开发升级阶段
 
-![Editing a markdown file for a png](/images/spacewar_1_5.png)
+![Editing a markdown file for a jpg](/images/spacewar_1_5.jpg)
 
 Heading 1
 ======
