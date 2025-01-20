@@ -10,6 +10,8 @@ location: "Zhejiang, China"
 
 Space War 2.0, 实现双人对战
 
+![Editing a markdown file for a jpg](/images/spacewar_2_0.jpg)
+
 Heading 1
 ======
 
