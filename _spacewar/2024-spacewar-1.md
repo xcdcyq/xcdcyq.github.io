@@ -6,6 +6,7 @@ permalink: /spacewar/2024-spacewar-1
 venue: "ZJU, CCEA"
 date: 2024-05-07
 location: "Zhejiang, China"
+paperurl: 'http://xcdcyq.github.io/files/Space_War_1.5.zip'
 ---
 
 Space War 1.0系列, 单机游戏，基于python实现，飞机对象的移动，攻击，以及敌机对象的一系列移动还有相机功能的运用。已具备一定的可玩性，目前处于开发升级阶段
